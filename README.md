@@ -1,5 +1,8 @@
 # NULLSET
 
+[![CI](https://github.com/shauryamalhotra957-wq/nullset-decision-compiler/actions/workflows/ci.yml/badge.svg)](https://github.com/shauryamalhotra957-wq/nullset-decision-compiler/actions) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 **Find the one fact that changes the decision.**
 
 NULLSET is a local-first decision compiler for high-stakes, hard-to-reverse bets. It combines a causal assumption surface, seeded Monte Carlo simulation, counterfactual stress testing, local evidence retrieval, and expected-value-of-information ranking into one explainable operating instrument.
