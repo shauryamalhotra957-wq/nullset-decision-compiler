@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  nullset-decision-compiler:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=production
+    command: node --test tests/resilienceEngine.test.mjs
